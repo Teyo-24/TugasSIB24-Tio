@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h2>Buka Console untuk melihat hasil</h2>
+    <button><a href="index.html">Kembali</a></button> <br>
+    <script>
+        //semi colom
+        alert("Hallo World"); console.log('statement baris kedua');
+        console.log('statement 1 baris')
+
+        // Membuat Variable dan Mengubah Variable,Tipe data Stirng
+        var fullname = "Aan"
+        let text     = "arkatama"
+
+        fullname = "Lionel Messi"
+        fullname = "Cristian Ronaldo"
+
+        document.writeln(fullname)
+        document.write('<br>')
+        document.writeln(fullname)
+        document.write('<br>')
+        document.writeln(fullname)
+        document.write('<br>')
+        document.writeln(fullname)
+        document.write('<br>')
+        document.writeln(text + '<br>')  
+
+        // tipe data number
+        let bulat = 25
+        let desimal = 25.5
+        
+        document.writeln(bulat)
+        document.write('<br>')
+        document.writeln(desimal)
+        document.write('<br>')
+        document.writeln("Hasil Penjumlahan = ")
+        document.write('<br>')
+        document.writeln(bulat + desimal + '<br>')
+
+        // tipe data boolean
+        let admin = true
+        let perbandingan = 15 > 9
+        document.writeln(perbandingan + "<br>") 
+
+        //  tipe data undifined
+        let arkatama
+        document.writeln(arkatama + "<br>")
+
+        // tipe data null
+        let angka = null
+        document.writeln(angka)
+
+        // tipe data symbol 
+        let employee = Symbol('joko')
+        console.log(employee)
+        console.log(employee.description)
+
+        // tipe data object
+        let perusahaan = {
+            name : "jhon",
+            age  : 30,
+            job  : "web developer",
+            isMarried : false,
+        }
+        document.write('my name is ${perusahaan.name} and he is ${perusahaan.age} years old')
+
+        // operator aritmatika
+        let a = 3
+        let b = 5
+        console.log(a+b)
+        console.log(a-b)
+        console.log(a*b)
+        console.log(a**b)
+        console.log(a/b)
+        console.log(a%b)
+
+        // operator pembanding
+        console.log(a==b)
+        console.log(a < b)
+        console.log(a > b)
+        console.log(a != b)
+
+        // operator logika
+        console.log(a && b)
+        console.log(a || b)
+        console.log(!a)
+
+        // operator bitwise
+        console.log(a & b)
+        console.log(a | b)
+        console.log(a ^ b)
+
+        // operator ternary
+        console.log(a == b ? 'sama' : 'tidak sama');
+
+        // popup prompt
+        let string = prompt('apakah anda yakin ?')
+        alert('jawaban anda' + string)
+
+        // pop confirm
+        let confir = confirm('apakah anda yakin ?')
+        alert('jawaban anda' + confir)
+
+        // percabangan if-else
+        let conf = confirm('apakah anda yakin ?')
+        if(conf) {
+            alert('jawaban anda mau')
+        }else{
+            alert('jawaban anda tidak mau')
+        }
+
+        // percabangan else-if
+        let hitung = prompt('1 + 1 ?')
+        if (hitung = 2){
+            alert('anda benar')
+        }else if(hitung > 2){
+            alert('kelebihan')
+        }else if(hitung < 2 ){
+            alert('kurang')
+        }else{
+            alert(salah)
+        }
+
+
+        // percabangan switch
+        let warna = 'blue'
+        switch(warna) {
+            case 'red':
+                alert('aku suka red')
+                break;
+
+                case 'blue':
+                alert('aku suka blue')
+                break;
+
+                default:
+                alert('aku tidak tau')
+                break;
+        }
+
+        // perulangan for 
+        for (let i = 1; i<5; i++){
+            document.write(i)
+            document.writeln('<br>')
+        }
+
+        // perulangan while 
+        let angka1 = 1
+        while(b<5){
+            document.writeln(b)
+            document.writeln('<br>')
+            b++
+        }
+
+        // Perulangan do-while
+        let k = 1
+        document.write('perulangan do while')
+        document.writeln('<br>')
+        do{
+            document.write(k)
+            document.writeln('<br>')
+            k++
+        }while (k<5)
+
+        // // loop control break
+        // document.write('perulangan for')
+        // document.writeln('<br>')
+        // for(let k = 1; a < 5; k++){
+        //     if(a == 3){
+        //         break
+        //     }
+        //     document.write(k)
+        //     document.writeln('<br>')
+        // }
+
+        // // // loop control continue
+        // document.write('perulangan for')
+        // document.writeln('<br>')
+        // for(let k = 1; a < 5; k++){
+        //     if(a == 3){
+        //         continue
+        //     }
+        //     document.write(k)
+        //     document.writeln('<br>')
+        // }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <label>Nama</label> <br>
+        <input type="text" placeholder="Nama Lengkap" name="nama"> <br>
+        
+        <label for="">Email</label> <br>
+        <input type="text" placeholder="Email Aktif" nama="email"> <br>
+
+        <label for="">No HP</label> <br>
+        <input type="text" placeholder="No HP Aktif" name="nomor"> <br>
+        
+    <div class="jenis">
+        <label for="">Jenis Kelamin</label>
+        <p><input type="radio" name="jenis_kelamin" id="jenis1" value="Laki-laki">Laki-laki</p>
+        <p><input type="radio" name="jenis_kelamin" id="jenis2" value="Perempuan">Perempuan</p>
+    </div>
+
+        <label for="">Prodi</label> <br>
+        <select name="prodi" id="prodi">
+            <option value="">Pilih</option>
+            <option value="">Teknik Informatika</option>
+            <option value="">Teknik Mesin</option>
+            <option value="">Teknik Pertanian</option>
+            <option value="">Manajemen Bisnis Pariwisata</option>
+        </select> <br> <br>
+
+        <label for="">Hobby</label> <br>
+        <p><input type="checkbox" name="hobby" id="checkbox1">Membaca</p>
+        <p><input type="checkbox" name="hobby" id="checkbox2">Menulis</p>
+        <p><input type="checkbox" name="hobby" id="checkbox3">Menyanyi</p>
+        <p><input type="checkbox" name="hobby" id="checkbox4">Olahraga</p>
+
+        <label for="">Alamat</label> <br>
+        <textarea name="alamat" id="" cols="20" rows="2" placeholder="Alamat Lengkap"></textarea> <br>
+
+        <label for="">Foto Diri</label><br>
+        <input type="file" name="foto" id="foto"> <br>
+
+        <button type="submit" name="submit">Daftar</button>
+    </form>
+</div>
+</body>
+</html>
