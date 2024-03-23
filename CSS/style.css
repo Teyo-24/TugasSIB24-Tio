@@ -123,3 +123,9 @@ ul li{
     background-color: blue;
     text-decoration: none;
 }
+
+/*landing DOM*/
+
+.slide-dom {
+    width: 100%;
+}

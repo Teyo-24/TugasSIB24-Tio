@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk</title>
+    <link rel="stylesheet" href="/CSS/produk.css">
+</head>
+<body>
+    <nav>
+        <a href="#" class="icon">
+            <h1>
+                <span>Tio Ramadhani</span>
+            </h1>
+        </a>
+        <ul>
+            <li class="navbar">
+                <a href="/HTML/index.html" class="navbar-link" id="nav-link">Dashboard</a>
+            </li>
+            <li class="navbar">
+                <a href="/HTML/landingdom.html" class="navbar-link" id="nav-link">Landing Dom</a>
+            </li>
+        </ul>
+    </nav>
+    <form id="form-data" class="form">
+    <h2>Tambah Data Barang</h2>
+        <div class="barang">
+            <label>Nama</label> <br>
+            <input type="text" placeholder="Nama Barang" name="nama" id="nama"> <br>
+    
+            <label>Jumlah</label> <br>
+            <input type="number" placeholder="Jumlah Barang" name="jumlah" id="jumlah"> <br>
+    
+            <label>Harga</label> <br>
+            <input type="number" placeholder="Harga Barang" name="harga" id="harga"> <br>
+        </div>
+            <button type="submit" class="btn-simpan">Simpan</button>
+    </form>
+    <div class="judul">
+        <h class="h2-barang">Daftar Barang</h>
+    </div>
+    <table class="table">
+        <thead>
+            <th>ID</th>
+            <th>Nama</th>
+            <th>Jumlah</th>
+            <th>Harga</th>
+            <th>Aksi</th>
+        </thead>
+        <tbody id="konten">
+            
+        </tbody>
+    </table>
+    <script src="/Javascript/productapi.js"></script>
+</body>
+</html>

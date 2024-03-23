@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 2px 3px 2px #f1f1f1;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 2rem auto -6rem;
+    margin-top: 50px;
+}
+
+.page h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.icon{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 200;
+    padding-left: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    margin-left: 2rem;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.navbar-link{
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+ul li{
+    list-style: none;
+    font-weight: bold;
+}
+
+h2 {
+    padding: 40px 0 10px 30px;
+    margin-left: 450px;
+}
+
+.h2-barang{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.barang {
+    padding: 10px;
+    margin-left: 30%;
+    width: 100%;
+}
+
+label, input{
+    color: rgb(46, 44, 44);
+    padding: 10px;
+    width: 40%;
+    margin: 10px 0 10px 20px;
+}
+
+.btn-simpan {
+    margin: 0px 0 10px 20px;
+    margin-left: 483px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #04AA6D;
+}
+
+.data{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+}
+
+.judul{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.table, th, td{
+    padding: 10px 0 10px;
+    border: 1px solid black;
+}
+
+.th, td{
+    text-align: center;
+    margin-left: 50px;
+}
+
+th{
+    background-color: #323C50;
+    color: white;
+}
+
+.btn-edit, .btn-hapus {
+    padding: 10px 15px;
+
+}
+
+.btn-edit {
+    color: white;
+    background-color: #04AA6D;
+}
+
+.btn-hapus {
+    color: white;
+    background-color: #f44336;
+}
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}
