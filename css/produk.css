@@ -1,8 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
+.container
 nav {
     background: #fff;
     display: flex;
@@ -57,9 +59,32 @@ ul li{
     font-weight: bold;
 }
 
-h2 {
-    padding: 40px 0 10px 30px;
-    margin-left: 450px;
+.form-box {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.form-box h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.barang{
+    width: 500px;
+    padding: 20px 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px;
+}
+
+.form-input{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .h2-barang{
@@ -67,22 +92,9 @@ h2 {
     font-size: 30px;
     font-weight: bold;
 }
-.barang {
-    padding: 10px;
-    margin-left: 30%;
-    width: 100%;
-}
-
-label, input{
-    color: rgb(46, 44, 44);
-    padding: 10px;
-    width: 40%;
-    margin: 10px 0 10px 20px;
-}
 
 .btn-simpan {
-    margin: 0px 0 10px 20px;
-    margin-left: 483px;
+    margin: 0px 0 10px 0px;
     padding: 10px;
     font-size: 15px;
     border-radius: 5px;
@@ -111,7 +123,7 @@ label, input{
 }
 
 .table, th, td{
-    padding: 10px 0 10px;
+    padding: 10px 0px 10px;
     border: 1px solid black;
 }
 
@@ -140,7 +152,23 @@ th{
     background-color: #f44336;
 }
 
+/* Responsivitas minimal dan maksimal */
 @media (max-width: 800px) {
-.container td:nth-child(4),
-.container th:nth-child(4) { display: none; }
+    .form-box {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px; /* Tambahkan padding untuk ruang antar elemen */
+    }
+    
+    .form-input {
+        width: 100%; /* Atur lebar input menjadi 100% */
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .table {
+        width: 100%;
+        overflow-x: auto;
+    }
 }

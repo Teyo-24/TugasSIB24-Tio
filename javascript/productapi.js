@@ -1,4 +1,4 @@
-const product_api = 'https://crudcrud.com/api/2919ed0ef9f34dc9a3d32c7fd3ee98a1/barang';
+const product_api = 'https://crudcrud.com/api/c578d1199a3849839fd80acc89d96e99/barang';
 
 let namaBarang = document.getElementById('nama');
 let jumlahBarang = document.getElementById('jumlah');

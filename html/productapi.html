@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../css/produk.css">
 </head>
 <body>
+    <div class="container">
+
+    
     <nav>
         <a href="#" class="icon">
             <h1>
@@ -22,20 +25,23 @@
             </li>
         </ul>
     </nav>
-    <form id="form-data" class="form">
+    <div class="form-box"> 
+    <form id="form-data">
     <h2>Tambah Data Barang</h2>
         <div class="barang">
             <label>Nama</label> <br>
-            <input type="text" placeholder="Nama Barang" name="nama" id="nama"> <br>
+            <input type="text" class="form-input" placeholder="Nama Barang" name="nama" id="nama"> <br>
     
             <label>Jumlah</label> <br>
-            <input type="number" placeholder="Jumlah Barang" name="jumlah" id="jumlah"> <br>
+            <input type="number" class="form-input" placeholder="Jumlah Barang" name="jumlah" id="jumlah"> <br>
     
             <label>Harga</label> <br>
-            <input type="number" placeholder="Harga Barang" name="harga" id="harga"> <br>
-        </div>
+            <input type="number" class="form-input" placeholder="Harga Barang" name="harga" id="harga"> <br>
+
             <button type="submit" class="btn-simpan">Simpan</button>
+        </div>
     </form>
+    </div>
     <div class="judul">
         <h class="h2-barang">Daftar Barang</h>
     </div>
@@ -51,6 +57,7 @@
             
         </tbody>
     </table>
+</div>
     <script src="../javascript/productapi.js"></script>
 </body>
 </html>

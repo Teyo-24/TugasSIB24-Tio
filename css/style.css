@@ -1,18 +1,20 @@
 /*form*/
-body{
+body {
     margin: 20px;
 }
 
-input{
+input {
     margin-bottom: 10px;
     padding: 0;
 }
-label{
+
+label {
     margin-top: 10px;
 }
-p{
-margin: 0;
-padding: 0;
+
+p {
+    margin: 0;
+    padding: 0;
 }
 
 /* index.html*/
@@ -114,13 +116,15 @@ ul li{
     width: 100%;
 }
 .next {
+    padding: 10px 30px;
     background-color: red;
     text-decoration: none;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .prev {
-    background-color: blue;
+    padding: 10px 30px;
+    background-color: #14A44D;
     text-decoration: none;
 }
 
