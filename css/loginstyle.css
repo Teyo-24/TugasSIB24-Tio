@@ -64,7 +64,7 @@ footer{
 }
 
 @media (max-width: 768px){
-	.form-box{
+	.body{
 		/* flex-direction: column;
 		text-align: center; */
 		height: auto;
